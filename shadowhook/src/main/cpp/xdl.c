@@ -4,7 +4,7 @@
 
 #include "sh_util.h"
 #include "shadowhook.h"
-#include "xdl_extension.h"
+#include "xdl_ext.h"
 
 static void *xdl_any_sym_prefix(xdl_t *self, const char *prefix, size_t *symbol_size, ElfW(Sym) *symbols,
                                 size_t symbols_cnt, const char *strtab, size_t strtab_sz) {

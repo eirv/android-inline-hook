@@ -32,7 +32,7 @@
 #include "sh_util.h"
 #include "shadowhook.h"
 #include "xdl.h"
-#include "xdl_extension.h"
+#include "xdl_ext.h"
 
 typedef struct {
   const char *lib_name;
