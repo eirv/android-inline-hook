@@ -37,8 +37,8 @@
 #include <time.h>
 #include <unistd.h>
 
-#include "linux_syscall_support_android_ext.h"
 #include "sh_log.h"
+#include "sh_lss.h"
 #include "sh_sig.h"
 #include "shadowhook.h"
 

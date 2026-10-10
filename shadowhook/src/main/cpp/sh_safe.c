@@ -28,19 +28,10 @@
 #include <stdlib.h>
 #include <sys/types.h>
 
+#include "sh_lss.h"
 #include "sh_util.h"
 #include "sh_xdl.h"
 #include "xdl.h"
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wreserved-id-macro"
-#pragma clang diagnostic ignored "-Wvariadic-macros"
-#pragma clang diagnostic ignored "-Wgnu-zero-variadic-macro-arguments"
-#pragma clang diagnostic ignored "-Wsign-conversion"
-#pragma clang diagnostic ignored "-Wpacked"
-#pragma clang diagnostic ignored "-Wshorten-64-to-32"
-#pragma clang diagnostic ignored "-Wpadded"
-#include "linux_syscall_support.h"
-#pragma clang diagnostic pop
 
 #define SH_SAFE_IDX_PTHREAD_GETSPECIFIC  0
 #define SH_SAFE_IDX_PTHREAD_SETSPECIFIC  1
